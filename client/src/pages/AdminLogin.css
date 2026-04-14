@@ -1,0 +1,44 @@
+.admin-login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.admin-login-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 60% 50% at 50% 50%, rgba(0,170,255,0.09), transparent 70%);
+  pointer-events: none;
+}
+.admin-login-card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 380px;
+  padding: 44px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.admin-login-icon {
+  font-size: 2.8rem;
+}
+.admin-login-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.admin-login-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-top: -8px;
+}
+.admin-login-fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 8px 0;
+}
